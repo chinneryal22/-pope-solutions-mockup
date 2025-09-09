@@ -1,0 +1,23 @@
+<svg width="160" height="40" viewBox="0 0 160 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Pope Solutions Logo Placeholder -->
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#046BD2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#045CB4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background shield shape -->
+  <path d="M10 8 L30 8 L30 25 L20 32 L10 25 Z" fill="url(#logoGradient)" stroke="none"/>
+  
+  <!-- Letter P -->
+  <text x="15" y="23" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">P</text>
+  
+  <!-- Company name -->
+  <text x="45" y="15" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#046BD2">POPE</text>
+  <text x="45" y="28" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#334155">SOLUTIONS</text>
+  
+  <!-- AI indicator -->
+  <circle cx="140" cy="12" r="3" fill="#FFD700"/>
+  <text x="148" y="16" font-family="Inter, sans-serif" font-size="8" font-weight="500" fill="#FFD700">AI</text>
+</svg>
