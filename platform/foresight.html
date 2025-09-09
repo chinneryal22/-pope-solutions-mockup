@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Foresight | Pope Solutions AI Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+    <header class="dashboard-header">
+        <div class="header-container">
+            <div class="header-brand">
+                <img src="../assets/pope-logo.jpg" alt="Pope Solutions" class="header-logo">
+                <div class="brand-info">
+                    <h1>Pope Solutions</h1>
+                    <span class="platform-tag">AI Platform</span>
+                </div>
+            </div>
+            <nav class="breadcrumb">
+                <a href="../index.html" class="breadcrumb-item">Platform Overview</a>
+                <span class="breadcrumb-separator">›</span>
+                <span class="breadcrumb-current">Market Foresight</span>
+            </nav>
+            <div class="header-actions">
+                <div class="user-menu">
+                    <div class="user-avatar">CP</div>
+                    <span class="user-name">Chuck Pope</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="dashboard-layout">
+        <aside class="dashboard-sidebar">
+            <nav class="sidebar-nav">
+                <div class="nav-section">
+                    <h4 class="nav-section-title">AI Modules</h4>
+                    <ul class="nav-list">
+                        <li><a href="sledscan.html" class="nav-item">SLEDScan</a></li>
+                        <li><a href="procurepro.html" class="nav-item">ProcurePro</a></li>
+                        <li><a href="aiva.html" class="nav-item">AiVA Academy</a></li>
+                        <li><a href="culturepulse.html" class="nav-item">Culture Pulse</a></li>
+                        <li><a href="matchmaker.html" class="nav-item">Matchmaker</a></li>
+                        <li><a href="foresight.html" class="nav-item active">Market Foresight</a></li>
+                        <li><a href="navigator.html" class="nav-item">Grant Navigator</a></li>
+                    </ul>
+                </div>
+                <div class="nav-section">
+                    <h4 class="nav-section-title">Platform</h4>
+                    <ul class="nav-list">
+                        <li><a href="../index.html" class="nav-item">Back to Overview</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </aside>
+
+        <main class="dashboard-main">
+            <div class="page-header">
+                <div class="page-title">
+                    <h1>Market Foresight Agent</h1>
+                    <p class="page-subtitle">Real-time market intelligence and policy analysis</p>
+                </div>
+                <div class="page-actions">
+                    <button class="btn-secondary">
+                        <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                            <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"></path>
+                        </svg>
+                        Pause
+                    </button>
+                    <button class="btn-primary">
+                        <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <polygon points="5,3 19,12 5,21"></polygon>
+                        </svg>
+                        Play
+                    </button>
+                </div>
+            </div>
+
+            <div class="dashboard-content">
+                <!-- Market Ticker -->
+                <div class="module-dashboard" style="background: linear-gradient(135deg, var(--pope-teal), rgba(71, 149, 166, 0.8)); color: white; overflow: hidden;">
+                    <div style="display: flex; align-items: center; justify-content: between; margin-bottom: var(--space-4);">
+                        <div style="display: flex; align-items: center; gap: var(--space-3);">
+                            <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12,6 12,12 16,14"></polyline>
+                            </svg>
+                            <h3 style="margin: 0; font-size: 1.25rem; font-weight: 600;">Live Market Intelligence Feed</h3>
+                        </div>
+                        <span style="font-size: 0.875rem; opacity: 0.8;">Updated 3 minutes ago</span>
+                    </div>
+                    
+                    <div style="position: relative; height: 100px; overflow: hidden; background: rgba(255, 255, 255, 0.1); border-radius: var(--radius-lg); padding: var(--space-4);">
+                        <div class="scrolling-ticker">
+                            <div class="ticker-content">
+                                🏛️ <strong>BREAKING:</strong> Senate Passes $1.8B Clean Technology Incentive Bill &nbsp;&nbsp;&nbsp; 
+                                💰 DoD Increases AI Spending by 11% for FY2025 &nbsp;&nbsp;&nbsp; 
+                                🔒 New Cybersecurity Executive Order Affects Federal Contractors &nbsp;&nbsp;&nbsp; 
+                                🏥 HHS Announces $500M Digital Health Initiative &nbsp;&nbsp;&nbsp; 
+                                ⚡ Energy Dept. Fast-Tracks Green Infrastructure Projects &nbsp;&nbsp;&nbsp; 
+                                📊 CISA Updates Software Supply Chain Guidelines &nbsp;&nbsp;&nbsp; 
+                                🌊 Navy Awards $2.3B Maritime AI Contract &nbsp;&nbsp;&nbsp; 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Intelligence Summary -->
+                <div class="dashboard-grid-2">
+                    <div class="module-dashboard">
+                        <div class="widget-header">
+                            <h3 class="widget-title">Policy Impact Analysis</h3>
+                            <span class="status-badge success">High Impact</span>
+                        </div>
+                        <div style="display: flex; flex-direction: column; gap: var(--space-4);">
+                            <div style="padding: var(--space-4); background: rgba(45, 133, 48, 0.05); border-left: 4px solid var(--pope-green); border-radius: var(--radius-sm);">
+                                <div style="display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-2);">
+                                    <svg width="16" height="16" fill="none" stroke="var(--pope-green)" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                                    </svg>
+                                    <strong style="color: var(--pope-green);">Opportunity</strong>
+                                </div>
+                                <div style="font-size: 0.875rem; color: var(--text-secondary); margin-bottom: var(--space-2);">Clean Technology Incentive Bill</div>
+                                <div style="font-size: 0.875rem; color: var(--text-primary);">
+                                    $1.8B allocation creates new opportunities in renewable energy consulting, carbon credit management, and green infrastructure planning.
+                                </div>
+                            </div>
+                            
+                            <div style="padding: var(--space-4); background: rgba(243, 200, 51, 0.05); border-left: 4px solid var(--pope-gold); border-radius: var(--radius-sm);">
+                                <div style="display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-2);">
+                                    <svg width="16" height="16" fill="none" stroke="#B8860B" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
+                                    </svg>
+                                    <strong style="color: #B8860B;">Watch</strong>
+                                </div>
+                                <div style="font-size: 0.875rem; color: var(--text-secondary); margin-bottom: var(--space-2);">Cybersecurity Executive Order</div>
+                                <div style="font-size: 0.875rem; color: var(--text-primary);">
+                                    New compliance requirements may impact existing contracts. Review portfolio for potential modifications needed.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="module-dashboard">
+                        <div class="widget-header">
+                            <h3 class="widget-title">Market Signals</h3>
+                            <button class="widget-action">
+                                <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="1"></circle>
+                                    <circle cx="12" cy="5" r="1"></circle>
+                                    <circle cx="12" cy="19" r="1"></circle>
+                                </svg>
+                            </button>
+                        </div>
+                        
+                        <div style="display: flex; flex-direction: column; gap: var(--space-4);">
+                            <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-3); background: rgba(71, 149, 166, 0.05); border-radius: var(--radius-lg);">
+                                <div>
+                                    <div style="font-weight: 600; color: var(--text-primary);">AI/ML Spending</div>
+                                    <div style="font-size: 0.875rem; color: var(--text-muted);">Federal agencies</div>
+                                </div>
+                                <div style="text-align: right;">
+                                    <div style="color: var(--pope-green); font-weight: 600;">↑ 11%</div>
+                                    <div style="font-size: 0.875rem; color: var(--text-muted);">vs. last quarter</div>
+                                </div>
+                            </div>
+                            
+                            <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-3); background: rgba(71, 149, 166, 0.05); border-radius: var(--radius-lg);">
+                                <div>
+                                    <div style="font-weight: 600; color: var(--text-primary);">Cybersecurity Contracts</div>
+                                    <div style="font-size: 0.875rem; color: var(--text-muted);">New solicitations</div>
+                                </div>
+                                <div style="text-align: right;">
+                                    <div style="color: var(--pope-green); font-weight: 600;">↑ 18%</div>
+                                    <div style="font-size: 0.875rem; color: var(--text-muted);">this month</div>
+                                </div>
+                            </div>
+                            
+                            <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-3); background: rgba(71, 149, 166, 0.05); border-radius: var(--radius-lg);">
+                                <div>
+                                    <div style="font-weight: 600; color: var(--text-primary);">Green Technology</div>
+                                    <div style="font-size: 0.875rem; color: var(--text-muted);">Investment interest</div>
+                                </div>
+                                <div style="text-align: right;">
+                                    <div style="color: var(--pope-green); font-weight: 600;">↑ 24%</div>
+                                    <div style="font-size: 0.875rem; color: var(--text-muted);">post-bill passage</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recent Headlines -->
+                <div class="module-dashboard">
+                    <div class="widget-header">
+                        <h3 class="widget-title">Strategic Intelligence Briefing</h3>
+                        <div style="display: flex; gap: var(--space-3);">
+                            <span style="font-size: 0.875rem; color: var(--text-muted);">Last updated: 3 min ago</span>
+                        </div>
+                    </div>
+                    <div style="display: grid; gap: var(--space-4);">
+                        <div style="display: flex; gap: var(--space-4); padding: var(--space-4); border: 1px solid var(--border-color); border-radius: var(--radius-lg); transition: all 0.2s ease;">
+                            <div style="width: 8px; background: var(--pope-green); border-radius: 4px;"></div>
+                            <div style="flex: 1;">
+                                <div style="display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-2);">
+                                    <span style="font-size: 0.75rem; color: var(--text-muted);">14:32</span>
+                                    <span style="font-size: 0.75rem; color: var(--pope-green); font-weight: 600;">HIGH PRIORITY</span>
+                                </div>
+                                <h4 style="margin: 0 0 var(--space-2) 0; color: var(--text-primary);">DoD AI Spending Increases 11% - Strategic Implications</h4>
+                                <p style="margin: 0; font-size: 0.875rem; color: var(--text-secondary);">
+                                    Defense Department's increased AI allocation signals accelerated digital transformation initiatives. Prime opportunities in predictive maintenance, autonomous systems, and decision support platforms.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div style="display: flex; gap: var(--space-4); padding: var(--space-4); border: 1px solid var(--border-color); border-radius: var(--radius-lg); transition: all 0.2s ease;">
+                            <div style="width: 8px; background: var(--pope-teal); border-radius: 4px;"></div>
+                            <div style="flex: 1;">
+                                <div style="display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-2);">
+                                    <span style="font-size: 0.75rem; color: var(--text-muted);">12:15</span>
+                                    <span style="font-size: 0.75rem; color: var(--pope-teal); font-weight: 600;">MEDIUM</span>
+                                </div>
+                                <h4 style="margin: 0 0 var(--space-2) 0; color: var(--text-primary);">HHS Digital Health Initiative - $500M Opportunity</h4>
+                                <p style="margin: 0; font-size: 0.875rem; color: var(--text-secondary);">
+                                    Health and Human Services announces major digital transformation program. Focus areas include telemedicine platforms, health data analytics, and patient engagement solutions.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div style="display: flex; gap: var(--space-4); padding: var(--space-4); border: 1px solid var(--border-color); border-radius: var(--radius-lg); transition: all 0.2s ease;">
+                            <div style="width: 8px; background: var(--pope-gold); border-radius: 4px;"></div>
+                            <div style="flex: 1;">
+                                <div style="display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-2);">
+                                    <span style="font-size: 0.75rem; color: var(--text-muted);">10:45</span>
+                                    <span style="font-size: 0.75rem; color: #B8860B; font-weight: 600;">WATCH</span>
+                                </div>
+                                <h4 style="margin: 0 0 var(--space-2) 0; color: var(--text-primary);">Navy Maritime AI Contract - Competitive Landscape Shift</h4>
+                                <p style="margin: 0; font-size: 0.875rem; color: var(--text-secondary);">
+                                    $2.3B maritime AI contract awarded to established defense contractor. Monitor for potential subcontracting opportunities and future similar solicitations.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <style>
+        .scrolling-ticker {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+        }
+        
+        .ticker-content {
+            display: flex;
+            white-space: nowrap;
+            animation: scroll-left 60s linear infinite;
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+        
+        @keyframes scroll-left {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</body>
+</html>

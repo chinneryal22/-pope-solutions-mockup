@@ -145,7 +145,7 @@
             </div>
             <div class="products-container">
                 <!-- SLEDScan -->
-                <div class="product-card featured">
+                <div class="product-card featured clickable" data-page="sledscan" data-product="SLEDScan">
                     <div class="product-header">
                         <div class="product-icon">
                             <svg width="32" height="32">
@@ -173,7 +173,7 @@
                 </div>
 
                 <!-- ProcurePro -->
-                <div class="product-card">
+                <div class="product-card clickable" data-page="procurepro" data-product="ProcurePro">
                     <div class="product-header">
                         <div class="product-icon">
                             <svg width="32" height="32">
@@ -196,7 +196,7 @@
                 </div>
 
                 <!-- AiVA Academy -->
-                <div class="product-card">
+                <div class="product-card clickable" data-page="aiva" data-product="AiVA Academy">
                     <div class="product-header">
                         <div class="product-icon">
                             <svg width="32" height="32">
@@ -219,7 +219,7 @@
                 </div>
 
                 <!-- AI Market Foresight -->
-                <div class="product-card">
+                <div class="product-card clickable" data-page="foresight" data-product="Market Foresight">
                     <div class="product-header">
                         <div class="product-icon">
                             <svg width="32" height="32">
@@ -242,7 +242,7 @@
                 </div>
 
                 <!-- Culture Pulse Agent -->
-                <div class="product-card">
+                <div class="product-card clickable" data-page="culturepulse" data-product="Culture Pulse">
                     <div class="product-header">
                         <div class="product-icon">
                             <svg width="32" height="32">
@@ -265,7 +265,7 @@
                 </div>
 
                 <!-- AI Opportunity Matchmaker -->
-                <div class="product-card">
+                <div class="product-card clickable" data-page="matchmaker" data-product="Opportunity Matchmaker">
                     <div class="product-header">
                         <div class="product-icon">
                             <svg width="32" height="32">
@@ -288,7 +288,7 @@
                 </div>
 
                 <!-- Grant & Investment Navigator -->
-                <div class="product-card">
+                <div class="product-card clickable" data-page="navigator" data-product="Grant Navigator">
                     <div class="product-header">
                         <div class="product-icon">
                             <svg width="32" height="32">
@@ -439,6 +439,215 @@
         </div>
     </section>
 
+    <!-- Dashboard Module Gallery -->
+    <section class="dashboard-gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>See Your Platform in Action</h2>
+                <p>Interactive mockups demonstrating each AI module's live dashboard interface</p>
+            </div>
+            
+            <div class="modules-grid">
+                <!-- Culture Pulse Agent Module -->
+                <div class="module-card" data-module="culture-pulse">
+                    <div class="module-header">
+                        <div class="module-icon">
+                            <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                            </svg>
+                        </div>
+                        <h3>Culture Pulse Agent</h3>
+                        <div class="module-status">
+                            <span class="status-indicator active"></span>
+                            <span>Live Data</span>
+                        </div>
+                    </div>
+                    <div class="module-body">
+                        <div class="pulse-content">
+                            <div class="sentiment-chart">
+                                <div class="chart-container">
+                                    <svg width="140" height="140" viewBox="0 0 42 42" class="donut-chart">
+                                        <!-- Positive Sentiment - 68% -->
+                                        <circle cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#2D8530" stroke-width="3" stroke-dasharray="68 32" stroke-dashoffset="25" stroke-linecap="round"></circle>
+                                        <!-- Neutral Sentiment - 22% -->
+                                        <circle cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#F3C833" stroke-width="3" stroke-dasharray="22 78" stroke-dashoffset="-43" stroke-linecap="round"></circle>
+                                        <!-- Negative Sentiment - 10% -->
+                                        <circle cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#e74c3c" stroke-width="3" stroke-dasharray="10 90" stroke-dashoffset="-65" stroke-linecap="round"></circle>
+                                    </svg>
+                                    <div class="chart-center">
+                                        <span class="chart-value">68%</span>
+                                        <span class="chart-label">Positive</span>
+                                    </div>
+                                </div>
+                                <div class="chart-legend">
+                                    <div class="legend-item">
+                                        <div class="legend-color positive"></div>
+                                        <span>Positive (68%)</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <div class="legend-color neutral"></div>
+                                        <span>Neutral (22%)</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <div class="legend-color negative"></div>
+                                        <span>Negative (10%)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recent-themes">
+                                <h4>Recent Internal Themes</h4>
+                                <div class="theme-list">
+                                    <div class="theme-item">
+                                        <span class="theme-tag transparency">Transparency</span>
+                                        <span class="theme-score">+12%</span>
+                                    </div>
+                                    <div class="theme-item">
+                                        <span class="theme-tag workload">Workload</span>
+                                        <span class="theme-score">-5%</span>
+                                    </div>
+                                    <div class="theme-item">
+                                        <span class="theme-tag remote">Remote Policy</span>
+                                        <span class="theme-score">+8%</span>
+                                    </div>
+                                    <div class="theme-item">
+                                        <span class="theme-tag communication">Communication</span>
+                                        <span class="theme-score">+15%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="module-footer">
+                        <div class="last-updated">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12,6 12,12 16,14"></polyline>
+                            </svg>
+                            <span>Last pulse: 2 days ago</span>
+                        </div>
+                        <button class="btn-module">Generate Insights</button>
+                    </div>
+                </div>
+
+                <!-- AI Opportunity Matchmaker Module -->
+                <div class="module-card" data-module="opportunity-matchmaker">
+                    <div class="module-header">
+                        <div class="module-icon">
+                            <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                            </svg>
+                        </div>
+                        <h3>AI Opportunity Matchmaker</h3>
+                        <div class="module-status">
+                            <span class="status-indicator processing"></span>
+                            <span>Matching</span>
+                        </div>
+                    </div>
+                    <div class="module-body">
+                        <div class="matchmaker-table">
+                            <div class="table-container">
+                                <table class="opportunities-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Agency</th>
+                                            <th>Opportunity</th>
+                                            <th>NAICS</th>
+                                            <th>Match Score</th>
+                                            <th>Suggested Partner</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="agency-cell">
+                                                    <div class="agency-avatar">DOD</div>
+                                                    <span>Department of Defense</span>
+                                                </div>
+                                            </td>
+                                            <td class="opportunity-name">Cyber Defense Modernization</td>
+                                            <td><span class="naics-code">541512</span></td>
+                                            <td>
+                                                <div class="match-score excellent">
+                                                    <div class="score-bar">
+                                                        <div class="score-fill" style="width: 94%"></div>
+                                                    </div>
+                                                    <span>94%</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="partner-suggestion">
+                                                    <span class="partner-name">TechFlow Inc</span>
+                                                    <span class="partner-type">Prime</span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="agency-cell">
+                                                    <div class="agency-avatar">HHS</div>
+                                                    <span>Health & Human Services</span>
+                                                </div>
+                                            </td>
+                                            <td class="opportunity-name">Healthcare Data Analytics</td>
+                                            <td><span class="naics-code">541511</span></td>
+                                            <td>
+                                                <div class="match-score good">
+                                                    <div class="score-bar">
+                                                        <div class="score-fill" style="width: 87%"></div>
+                                                    </div>
+                                                    <span>87%</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="partner-suggestion">
+                                                    <span class="partner-name">DataVault Systems</span>
+                                                    <span class="partner-type">Sub</span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="agency-cell">
+                                                    <div class="agency-avatar">VA</div>
+                                                    <span>Veterans Affairs</span>
+                                                </div>
+                                            </td>
+                                            <td class="opportunity-name">Digital Transformation Initiative</td>
+                                            <td><span class="naics-code">541513</span></td>
+                                            <td>
+                                                <div class="match-score moderate">
+                                                    <div class="score-bar">
+                                                        <div class="score-fill" style="width: 76%"></div>
+                                                    </div>
+                                                    <span>76%</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="partner-suggestion">
+                                                    <span class="partner-name">InnovateTech</span>
+                                                    <span class="partner-type">Joint Venture</span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="module-footer">
+                        <div class="results-count">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path>
+                            </svg>
+                            <span>Showing 3 of 47 matches</span>
+                        </div>
+                        <button class="btn-module">View Suggested Teammates</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Call to Action -->
     <section class="cta-section">
         <div class="container">
@@ -492,5 +701,6 @@
     </div>
 
     <script src="script.js"></script>
+    <script src="scripts/nav.js"></script>
 </body>
 </html>

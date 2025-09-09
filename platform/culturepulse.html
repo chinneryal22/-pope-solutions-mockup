@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culture Pulse Agent | Pope Solutions AI Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+    <!-- Dashboard Header -->
+    <header class="dashboard-header">
+        <div class="header-container">
+            <!-- Logo and Brand -->
+            <div class="header-brand">
+                <img src="../assets/pope-logo.jpg" alt="Pope Solutions" class="header-logo">
+                <div class="brand-info">
+                    <h1>Pope Solutions</h1>
+                    <span class="platform-tag">AI Platform</span>
+                </div>
+            </div>
+            
+            <!-- Navigation Breadcrumb -->
+            <nav class="breadcrumb">
+                <a href="../index.html" class="breadcrumb-item">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+                    </svg>
+                    Platform Overview
+                </a>
+                <span class="breadcrumb-separator">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <polyline points="9,18 15,12 9,6"></polyline>
+                    </svg>
+                </span>
+                <span class="breadcrumb-current">Culture Pulse Agent</span>
+            </nav>
+            
+            <!-- Header Actions -->
+            <div class="header-actions">
+                <button class="btn-header">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <div class="user-menu">
+                    <div class="user-avatar">CP</div>
+                    <span class="user-name">Chuck Pope</span>
+                    <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <polyline points="6,9 12,15 18,9"></polyline>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Dashboard Layout -->
+    <div class="dashboard-layout">
+        <!-- Sidebar Navigation -->
+        <aside class="dashboard-sidebar">
+            <nav class="sidebar-nav">
+                <div class="nav-section">
+                    <h4 class="nav-section-title">AI Modules</h4>
+                    <ul class="nav-list">
+                        <li><a href="sledscan.html" class="nav-item" data-page="sledscan">
+                            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                            </svg>
+                            SLEDScan
+                        </a></li>
+                        <li><a href="procurepro.html" class="nav-item" data-page="procurepro">
+                            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                            </svg>
+                            ProcurePro
+                        </a></li>
+                        <li><a href="aiva.html" class="nav-item" data-page="aiva">
+                            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                            </svg>
+                            AiVA Academy
+                        </a></li>
+                        <li><a href="culturepulse.html" class="nav-item active" data-page="culturepulse">
+                            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                            </svg>
+                            Culture Pulse
+                        </a></li>
+                        <li><a href="matchmaker.html" class="nav-item" data-page="matchmaker">
+                            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                            </svg>
+                            Matchmaker
+                        </a></li>
+                        <li><a href="foresight.html" class="nav-item" data-page="foresight">
+                            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                            </svg>
+                            Market Foresight
+                        </a></li>
+                        <li><a href="navigator.html" class="nav-item" data-page="navigator">
+                            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2-2v2m8 0H8m8 0v2a2 2 0 01-2 2H10a2 2 0 01-2-2V6"></path>
+                            </svg>
+                            Grant Navigator
+                        </a></li>
+                    </ul>
+                </div>
+                
+                <div class="nav-section">
+                    <h4 class="nav-section-title">Platform</h4>
+                    <ul class="nav-list">
+                        <li><a href="../index.html" class="nav-item">
+                            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+                            </svg>
+                            Back to Overview
+                        </a></li>
+                    </ul>
+                </div>
+            </nav>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="dashboard-main">
+            <!-- Page Header -->
+            <div class="page-header">
+                <div class="page-title">
+                    <h1>Culture Pulse Agent</h1>
+                    <p class="page-subtitle">Real-time organizational sentiment and team culture analytics</p>
+                </div>
+                <div class="page-actions">
+                    <button class="btn-secondary">
+                        <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                        </svg>
+                        Export Report
+                    </button>
+                    <button class="btn-primary">
+                        <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                        </svg>
+                        Generate Insights
+                    </button>
+                </div>
+            </div>
+
+            <!-- Dashboard Content -->
+            <div class="dashboard-content">
+                <!-- Overview Cards -->
+                <div class="dashboard-grid-3">
+                    <div class="widget-card">
+                        <div class="widget-header">
+                            <h3 class="widget-title">Overall Sentiment</h3>
+                            <span class="status-badge success">Positive</span>
+                        </div>
+                        <div style="display: flex; align-items: center; justify-content: space-between;">
+                            <div>
+                                <div style="font-size: 2.5rem; font-weight: 700; color: var(--pope-green); margin-bottom: 0.5rem;">68%</div>
+                                <div style="color: var(--text-muted); font-size: 0.875rem;">↑ 12% from last month</div>
+                            </div>
+                            <div style="width: 60px; height: 60px;">
+                                <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="var(--pope-green)" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+                                    <line x1="9" y1="9" x2="9.01" y2="9"></line>
+                                    <line x1="15" y1="9" x2="15.01" y2="9"></line>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="widget-card">
+                        <div class="widget-header">
+                            <h3 class="widget-title">Response Rate</h3>
+                            <span class="status-badge info">Active</span>
+                        </div>
+                        <div style="display: flex; align-items: center; justify-content: space-between;">
+                            <div>
+                                <div style="font-size: 2.5rem; font-weight: 700; color: var(--pope-teal); margin-bottom: 0.5rem;">84%</div>
+                                <div style="color: var(--text-muted); font-size: 0.875rem;">47 of 56 team members</div>
+                            </div>
+                            <div style="width: 60px; height: 60px;">
+                                <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="var(--pope-teal)" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="widget-card">
+                        <div class="widget-header">
+                            <h3 class="widget-title">Last Survey</h3>
+                            <span class="status-badge warning">2 days ago</span>
+                        </div>
+                        <div style="display: flex; align-items: center; justify-content: space-between;">
+                            <div>
+                                <div style="font-size: 1.5rem; font-weight: 600; color: var(--text-primary); margin-bottom: 0.5rem;">Jan 07, 2025</div>
+                                <div style="color: var(--text-muted); font-size: 0.875rem;">Next pulse in 5 days</div>
+                            </div>
+                            <div style="width: 60px; height: 60px;">
+                                <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="var(--pope-gold)" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12,6 12,12 16,14"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sentiment Analysis Section -->
+                <div class="dashboard-grid-2">
+                    <!-- Sentiment Chart -->
+                    <div class="module-dashboard">
+                        <div class="widget-header">
+                            <h3 class="widget-title">Sentiment Breakdown</h3>
+                            <div style="display: flex; gap: var(--space-4);">
+                                <span style="display: flex; align-items: center; gap: var(--space-2); font-size: 0.875rem;">
+                                    <div style="width: 12px; height: 12px; border-radius: 50%; background-color: var(--pope-green);"></div>
+                                    Positive (68%)
+                                </span>
+                                <span style="display: flex; align-items: center; gap: var(--space-2); font-size: 0.875rem;">
+                                    <div style="width: 12px; height: 12px; border-radius: 50%; background-color: var(--pope-gold);"></div>
+                                    Neutral (22%)
+                                </span>
+                                <span style="display: flex; align-items: center; gap: var(--space-2); font-size: 0.875rem;">
+                                    <div style="width: 12px; height: 12px; border-radius: 50%; background-color: #e74c3c;"></div>
+                                    Negative (10%)
+                                </span>
+                            </div>
+                        </div>
+                        <div class="chart-container">
+                            <div style="position: relative; display: flex; align-items: center; justify-content: center;">
+                                <svg width="200" height="200" viewBox="0 0 42 42" style="transform: rotate(-90deg);">
+                                    <!-- Background circle -->
+                                    <circle cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#f1f5f9" stroke-width="3"></circle>
+                                    <!-- Positive Sentiment - 68% -->
+                                    <circle cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="var(--pope-green)" stroke-width="3" stroke-dasharray="68 32" stroke-dashoffset="0" stroke-linecap="round"></circle>
+                                    <!-- Neutral Sentiment - 22% -->
+                                    <circle cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="var(--pope-gold)" stroke-width="3" stroke-dasharray="22 78" stroke-dashoffset="-68" stroke-linecap="round"></circle>
+                                    <!-- Negative Sentiment - 10% -->
+                                    <circle cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#e74c3c" stroke-width="3" stroke-dasharray="10 90" stroke-dashoffset="-90" stroke-linecap="round"></circle>
+                                </svg>
+                                <div style="position: absolute; text-align: center;">
+                                    <div style="font-size: 2rem; font-weight: 700; color: var(--pope-green);">68%</div>
+                                    <div style="font-size: 0.875rem; color: var(--text-muted);">Positive</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Recent Themes -->
+                    <div class="module-dashboard">
+                        <div class="widget-header">
+                            <h3 class="widget-title">Recent Internal Themes</h3>
+                            <button class="widget-action">
+                                <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="1"></circle>
+                                    <circle cx="12" cy="5" r="1"></circle>
+                                    <circle cx="12" cy="19" r="1"></circle>
+                                </svg>
+                            </button>
+                        </div>
+                        <div style="display: flex; flex-direction: column; gap: var(--space-4);">
+                            <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-4); background: rgba(45, 133, 48, 0.05); border-radius: var(--radius-lg); border-left: 4px solid var(--pope-green);">
+                                <div>
+                                    <div style="font-weight: 600; color: var(--text-primary); margin-bottom: var(--space-1);">Transparency</div>
+                                    <div style="font-size: 0.875rem; color: var(--text-muted);">Communication clarity improved</div>
+                                </div>
+                                <div style="color: var(--pope-green); font-weight: 600;">+12%</div>
+                            </div>
+                            
+                            <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-4); background: rgba(231, 76, 60, 0.05); border-radius: var(--radius-lg); border-left: 4px solid #e74c3c;">
+                                <div>
+                                    <div style="font-weight: 600; color: var(--text-primary); margin-bottom: var(--space-1);">Workload</div>
+                                    <div style="font-size: 0.875rem; color: var(--text-muted);">Increased project demands</div>
+                                </div>
+                                <div style="color: #e74c3c; font-weight: 600;">-5%</div>
+                            </div>
+                            
+                            <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-4); background: rgba(45, 133, 48, 0.05); border-radius: var(--radius-lg); border-left: 4px solid var(--pope-green);">
+                                <div>
+                                    <div style="font-weight: 600; color: var(--text-primary); margin-bottom: var(--space-1);">Remote Policy</div>
+                                    <div style="font-size: 0.875rem; color: var(--text-muted);">Flexibility appreciation</div>
+                                </div>
+                                <div style="color: var(--pope-green); font-weight: 600;">+8%</div>
+                            </div>
+                            
+                            <div style="display: flex; align-items: center; justify-content: space-between; padding: var(--space-4); background: rgba(45, 133, 48, 0.05); border-radius: var(--radius-lg); border-left: 4px solid var(--pope-green);">
+                                <div>
+                                    <div style="font-weight: 600; color: var(--text-primary); margin-bottom: var(--space-1);">Communication</div>
+                                    <div style="font-size: 0.875rem; color: var(--text-muted);">Team collaboration enhanced</div>
+                                </div>
+                                <div style="color: var(--pope-green); font-weight: 600;">+15%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Insights Table -->
+                <div class="module-dashboard">
+                    <div class="widget-header">
+                        <h3 class="widget-title">Department Sentiment Breakdown</h3>
+                        <div style="display: flex; gap: var(--space-3);">
+                            <button class="btn-secondary" style="padding: var(--space-2) var(--space-3); font-size: 0.75rem;">
+                                <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"></path>
+                                </svg>
+                                Filter
+                            </button>
+                            <button class="btn-secondary" style="padding: var(--space-2) var(--space-3); font-size: 0.75rem;">
+                                <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                                </svg>
+                                Export
+                            </button>
+                        </div>
+                    </div>
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Department</th>
+                                <th>Team Size</th>
+                                <th>Response Rate</th>
+                                <th>Positive</th>
+                                <th>Neutral</th>
+                                <th>Negative</th>
+                                <th>Trend</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="font-weight: 600; color: var(--text-primary);">Business Development</td>
+                                <td>12</td>
+                                <td><span class="status-badge success">92%</span></td>
+                                <td style="color: var(--pope-green); font-weight: 600;">75%</td>
+                                <td>18%</td>
+                                <td>7%</td>
+                                <td style="color: var(--pope-green);">↑ +8%</td>
+                            </tr>
+                            <tr>
+                                <td style="font-weight: 600; color: var(--text-primary);">Engineering</td>
+                                <td>18</td>
+                                <td><span class="status-badge info">89%</span></td>
+                                <td style="color: var(--pope-green); font-weight: 600;">71%</td>
+                                <td>22%</td>
+                                <td>7%</td>
+                                <td style="color: var(--pope-green);">↑ +5%</td>
+                            </tr>
+                            <tr>
+                                <td style="font-weight: 600; color: var(--text-primary);">Operations</td>
+                                <td>14</td>
+                                <td><span class="status-badge warning">71%</span></td>
+                                <td style="color: var(--pope-green); font-weight: 600;">58%</td>
+                                <td>28%</td>
+                                <td>14%</td>
+                                <td style="color: #e74c3c;">↓ -3%</td>
+                            </tr>
+                            <tr>
+                                <td style="font-weight: 600; color: var(--text-primary);">Marketing</td>
+                                <td>8</td>
+                                <td><span class="status-badge success">100%</span></td>
+                                <td style="color: var(--pope-green); font-weight: 600;">81%</td>
+                                <td>19%</td>
+                                <td>0%</td>
+                                <td style="color: var(--pope-green);">↑ +12%</td>
+                            </tr>
+                            <tr>
+                                <td style="font-weight: 600; color: var(--text-primary);">Finance</td>
+                                <td>4</td>
+                                <td><span class="status-badge info">75%</span></td>
+                                <td style="color: var(--pope-green); font-weight: 600;">67%</td>
+                                <td>33%</td>
+                                <td>0%</td>
+                                <td style="color: var(--pope-green);">↑ +4%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Action Items -->
+                <div class="module-dashboard">
+                    <div class="widget-header">
+                        <h3 class="widget-title">AI-Generated Action Items</h3>
+                        <span class="status-badge info">Updated 2 hours ago</span>
+                    </div>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--space-4);">
+                        <div style="padding: var(--space-4); background: rgba(71, 149, 166, 0.03); border-radius: var(--radius-lg); border: 1px solid rgba(71, 149, 166, 0.1);">
+                            <div style="display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-3);">
+                                <div style="width: 8px; height: 8px; border-radius: 50%; background-color: var(--pope-gold);"></div>
+                                <span style="font-weight: 600; color: var(--text-primary);">Priority: Medium</span>
+                            </div>
+                            <h4 style="margin-bottom: var(--space-2); color: var(--text-primary);">Address Operations Concerns</h4>
+                            <p style="font-size: 0.875rem; color: var(--text-secondary); margin-bottom: var(--space-3);">Schedule focused discussion with Operations team about workload distribution and resource allocation.</p>
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <span style="font-size: 0.75rem; color: var(--text-muted);">Due: Jan 15, 2025</span>
+                                <button class="btn-primary" style="padding: var(--space-1) var(--space-3); font-size: 0.75rem;">Assign</button>
+                            </div>
+                        </div>
+                        
+                        <div style="padding: var(--space-4); background: rgba(45, 133, 48, 0.03); border-radius: var(--radius-lg); border: 1px solid rgba(45, 133, 48, 0.1);">
+                            <div style="display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-3);">
+                                <div style="width: 8px; height: 8px; border-radius: 50%; background-color: var(--pope-green);"></div>
+                                <span style="font-weight: 600; color: var(--text-primary);">Priority: High</span>
+                            </div>
+                            <h4 style="margin-bottom: var(--space-2); color: var(--text-primary);">Leverage Communication Success</h4>
+                            <p style="font-size: 0.875rem; color: var(--text-secondary); margin-bottom: var(--space-3);">Document and share communication best practices from successful departments across the organization.</p>
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <span style="font-size: 0.75rem; color: var(--text-muted);">Due: Jan 12, 2025</span>
+                                <button class="btn-primary" style="padding: var(--space-1) var(--space-3); font-size: 0.75rem;">Assign</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="../scripts/nav.js"></script>
+    <script>
+        // Set active nav item
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentPage = 'culturepulse';
+            const navItem = document.querySelector(`[data-page="${currentPage}"]`);
+            if (navItem) {
+                navItem.classList.add('active');
+            }
+        });
+    </script>
+</body>
+</html>

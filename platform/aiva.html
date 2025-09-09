@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AiVA Academy | Pope Solutions AI Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+    <header class="dashboard-header">
+        <div class="header-container">
+            <div class="header-brand">
+                <img src="../assets/pope-logo.jpg" alt="Pope Solutions" class="header-logo">
+                <div class="brand-info">
+                    <h1>Pope Solutions</h1>
+                    <span class="platform-tag">AI Platform</span>
+                </div>
+            </div>
+            <nav class="breadcrumb">
+                <a href="../index.html" class="breadcrumb-item">Platform Overview</a>
+                <span class="breadcrumb-separator">›</span>
+                <span class="breadcrumb-current">AiVA Academy</span>
+            </nav>
+            <div class="header-actions">
+                <div class="user-menu">
+                    <div class="user-avatar">CP</div>
+                    <span class="user-name">Chuck Pope</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="dashboard-layout">
+        <aside class="dashboard-sidebar">
+            <nav class="sidebar-nav">
+                <div class="nav-section">
+                    <h4 class="nav-section-title">AI Modules</h4>
+                    <ul class="nav-list">
+                        <li><a href="sledscan.html" class="nav-item">SLEDScan</a></li>
+                        <li><a href="procurepro.html" class="nav-item">ProcurePro</a></li>
+                        <li><a href="aiva.html" class="nav-item active">AiVA Academy</a></li>
+                        <li><a href="culturepulse.html" class="nav-item">Culture Pulse</a></li>
+                        <li><a href="matchmaker.html" class="nav-item">Matchmaker</a></li>
+                        <li><a href="foresight.html" class="nav-item">Market Foresight</a></li>
+                        <li><a href="navigator.html" class="nav-item">Grant Navigator</a></li>
+                    </ul>
+                </div>
+                <div class="nav-section">
+                    <h4 class="nav-section-title">Platform</h4>
+                    <ul class="nav-list">
+                        <li><a href="../index.html" class="nav-item">Back to Overview</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </aside>
+
+        <main class="dashboard-main">
+            <div class="page-header">
+                <div class="page-title">
+                    <h1>AiVA Academy</h1>
+                    <p class="page-subtitle">AI training platform for business development and compliance teams</p>
+                </div>
+                <div class="page-actions">
+                    <button class="btn-primary">Assign Training</button>
+                </div>
+            </div>
+
+            <div class="dashboard-content">
+                <div class="dashboard-grid-3">
+                    <div class="widget-card">
+                        <h3 class="widget-title">Team Progress</h3>
+                        <div style="display: flex; align-items: center; gap: var(--space-4);">
+                            <div style="position: relative; width: 80px; height: 80px;">
+                                <svg width="80" height="80" viewBox="0 0 36 36" style="transform: rotate(-90deg);">
+                                    <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#f1f5f9" stroke-width="2" stroke-dasharray="100, 100"/>
+                                    <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="var(--pope-green)" stroke-width="2" stroke-dasharray="73, 100" stroke-linecap="round"/>
+                                </svg>
+                                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+                                    <div style="font-size: 1.5rem; font-weight: 700; color: var(--pope-green);">73%</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div style="font-size: 0.875rem; color: var(--text-muted);">Average completion</div>
+                                <div style="font-size: 0.875rem; color: var(--text-muted);">8 of 11 team members</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widget-card">
+                        <h3 class="widget-title">Active Courses</h3>
+                        <div style="font-size: 2.5rem; font-weight: 700; color: var(--pope-teal);">3</div>
+                        <div style="color: var(--text-muted); font-size: 0.875rem;">AI for BD, Compliance, Leaders</div>
+                    </div>
+                    <div class="widget-card">
+                        <h3 class="widget-title">Certificates</h3>
+                        <div style="font-size: 2.5rem; font-weight: 700; color: var(--pope-gold);">12</div>
+                        <div style="color: var(--text-muted); font-size: 0.875rem;">Completed this quarter</div>
+                    </div>
+                </div>
+
+                <div class="module-dashboard">
+                    <div class="widget-header">
+                        <h3 class="widget-title">Team Member Progress</h3>
+                        <button class="btn-secondary" style="padding: var(--space-2) var(--space-3); font-size: 0.75rem;">View All</button>
+                    </div>
+                    <div style="display: grid; gap: var(--space-4);">
+                        <!-- Team Member 1 -->
+                        <div style="display: grid; grid-template-columns: auto 1fr auto auto; align-items: center; gap: var(--space-4); padding: var(--space-4); background: rgba(71, 149, 166, 0.02); border-radius: var(--radius-lg);">
+                            <div style="width: 48px; height: 48px; background: linear-gradient(135deg, var(--pope-teal), var(--pope-green)); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600;">SR</div>
+                            <div>
+                                <div style="font-weight: 600; color: var(--text-primary);">Sarah Rodriguez</div>
+                                <div style="font-size: 0.875rem; color: var(--text-muted);">Business Development Manager</div>
+                                <div style="margin-top: var(--space-2);">
+                                    <div style="font-size: 0.75rem; color: var(--text-muted); margin-bottom: var(--space-1);">AI for BD: 85% complete</div>
+                                    <div style="width: 200px; height: 6px; background: rgba(71, 149, 166, 0.1); border-radius: 3px; overflow: hidden;">
+                                        <div style="width: 85%; height: 100%; background: var(--pope-green); border-radius: 3px;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="status-badge success">Next Module</span>
+                            <div style="text-align: center;">
+                                <div style="position: relative; width: 40px; height: 40px;">
+                                    <svg width="40" height="40" viewBox="0 0 36 36" style="transform: rotate(-90deg);">
+                                        <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#f1f5f9" stroke-width="3" stroke-dasharray="100, 100"/>
+                                        <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="var(--pope-green)" stroke-width="3" stroke-dasharray="85, 100" stroke-linecap="round"/>
+                                    </svg>
+                                    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 0.75rem; font-weight: 600; color: var(--pope-green);">85%</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Team Member 2 -->
+                        <div style="display: grid; grid-template-columns: auto 1fr auto auto; align-items: center; gap: var(--space-4); padding: var(--space-4); background: rgba(71, 149, 166, 0.02); border-radius: var(--radius-lg);">
+                            <div style="width: 48px; height: 48px; background: linear-gradient(135deg, var(--pope-teal), var(--pope-green)); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600;">MJ</div>
+                            <div>
+                                <div style="font-weight: 600; color: var(--text-primary);">Michael Johnson</div>
+                                <div style="font-size: 0.875rem; color: var(--text-muted);">Compliance Officer</div>
+                                <div style="margin-top: var(--space-2);">
+                                    <div style="font-size: 0.75rem; color: var(--text-muted); margin-bottom: var(--space-1);">AI for Compliance: 92% complete</div>
+                                    <div style="width: 200px; height: 6px; background: rgba(71, 149, 166, 0.1); border-radius: 3px; overflow: hidden;">
+                                        <div style="width: 92%; height: 100%; background: var(--pope-green); border-radius: 3px;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="status-badge info">Final Module</span>
+                            <div style="text-align: center;">
+                                <div style="position: relative; width: 40px; height: 40px;">
+                                    <svg width="40" height="40" viewBox="0 0 36 36" style="transform: rotate(-90deg);">
+                                        <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#f1f5f9" stroke-width="3" stroke-dasharray="100, 100"/>
+                                        <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="var(--pope-green)" stroke-width="3" stroke-dasharray="92, 100" stroke-linecap="round"/>
+                                    </svg>
+                                    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 0.75rem; font-weight: 600; color: var(--pope-green);">92%</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Team Member 3 -->
+                        <div style="display: grid; grid-template-columns: auto 1fr auto auto; align-items: center; gap: var(--space-4); padding: var(--space-4); background: rgba(71, 149, 166, 0.02); border-radius: var(--radius-lg);">
+                            <div style="width: 48px; height: 48px; background: linear-gradient(135deg, var(--pope-teal), var(--pope-green)); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 600;">LT</div>
+                            <div>
+                                <div style="font-weight: 600; color: var(--text-primary);">Lisa Thompson</div>
+                                <div style="font-size: 0.875rem; color: var(--text-muted);">Team Lead</div>
+                                <div style="margin-top: var(--space-2);">
+                                    <div style="font-size: 0.75rem; color: var(--text-muted); margin-bottom: var(--space-1);">AI for Leaders: 67% complete</div>
+                                    <div style="width: 200px; height: 6px; background: rgba(71, 149, 166, 0.1); border-radius: 3px; overflow: hidden;">
+                                        <div style="width: 67%; height: 100%; background: var(--pope-gold); border-radius: 3px;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="status-badge warning">In Progress</span>
+                            <div style="text-align: center;">
+                                <div style="position: relative; width: 40px; height: 40px;">
+                                    <svg width="40" height="40" viewBox="0 0 36 36" style="transform: rotate(-90deg);">
+                                        <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#f1f5f9" stroke-width="3" stroke-dasharray="100, 100"/>
+                                        <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="var(--pope-gold)" stroke-width="3" stroke-dasharray="67, 100" stroke-linecap="round"/>
+                                    </svg>
+                                    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 0.75rem; font-weight: 600; color: var(--pope-gold);">67%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

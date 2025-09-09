@@ -8,6 +8,10 @@ document.addEventListener('DOMContentLoaded', function() {
     initMetricCounters();
     initInteractiveElements();
     initMobileMenu();
+    initEnhancedAnimations();
+    initParallaxEffects();
+    initRippleEffects();
+    initFloatingAnimations();
 });
 
 // Load SVG Icons
@@ -473,3 +477,124 @@ document.addEventListener('mousemove', function(e) {
     
     document.body.style.cursor = isInteractive ? 'pointer' : 'default';
 });
+
+// Enhanced Animations
+function initEnhancedAnimations() {
+    // Staggered entrance animations
+    const animateElements = document.querySelectorAll('.feature-card, .product-card, .metric-card');
+    
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry, index) => {
+            if (entry.isIntersecting) {
+                setTimeout(() => {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0) scale(1)';
+                }, index * 150); // Stagger animation
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+    
+    animateElements.forEach(element => {
+        element.style.opacity = '0';
+        element.style.transform = 'translateY(40px) scale(0.95)';
+        element.style.transition = 'all 0.6s cubic-bezier(0.4, 0, 0.2, 1)';
+        observer.observe(element);
+    });
+}
+
+// Parallax Effects
+function initParallaxEffects() {
+    const parallaxElements = document.querySelectorAll('.hero-visual, .dashboard-preview');
+    
+    window.addEventListener('scroll', () => {
+        const scrolled = window.pageYOffset;
+        
+        parallaxElements.forEach(element => {
+            const rate = scrolled * -0.3;
+            element.style.transform = `translateY(${rate}px)`;
+        });
+    });
+}
+
+// Enhanced Ripple Effects
+function initRippleEffects() {
+    const buttons = document.querySelectorAll('.btn-primary, .btn-secondary');
+    
+    buttons.forEach(button => {
+        button.addEventListener('click', function(e) {
+            const ripple = document.createElement('span');
+            const rect = this.getBoundingClientRect();
+            const size = Math.max(rect.width, rect.height);
+            const x = e.clientX - rect.left - size / 2;
+            const y = e.clientY - rect.top - size / 2;
+            
+            ripple.style.cssText = `
+                position: absolute;
+                width: ${size}px;
+                height: ${size}px;
+                left: ${x}px;
+                top: ${y}px;
+                background: radial-gradient(circle, rgba(255,255,255,0.6) 0%, transparent 70%);
+                border-radius: 50%;
+                transform: scale(0);
+                animation: ripple 0.6s linear;
+                pointer-events: none;
+                z-index: 1000;
+            `;
+            
+            this.appendChild(ripple);
+            
+            setTimeout(() => {
+                ripple.remove();
+            }, 600);
+        });
+    });
+    
+    // Add ripple animation keyframes
+    const style = document.createElement('style');
+    style.textContent = `
+        @keyframes ripple {
+            to {
+                transform: scale(4);
+                opacity: 0;
+            }
+        }
+    `;
+    document.head.appendChild(style);
+}
+
+// Floating Animations
+function initFloatingAnimations() {
+    const floatingElements = document.querySelectorAll('.product-icon, .feature-icon');
+    
+    floatingElements.forEach((element, index) => {
+        const delay = index * 0.5;
+        const duration = 3 + (index % 3);
+        
+        element.style.animation = `float ${duration}s ${delay}s ease-in-out infinite`;
+    });
+    
+    // Add floating animation keyframes
+    const style = document.createElement('style');
+    style.textContent = `
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            25% { transform: translateY(-5px) rotate(1deg); }
+            50% { transform: translateY(-10px) rotate(-1deg); }
+            75% { transform: translateY(-5px) rotate(1deg); }
+        }
+        
+        .product-card:hover .product-icon,
+        .feature-card:hover .feature-icon {
+            animation-play-state: paused;
+            transform: translateY(-3px) scale(1.05);
+        }
+    `;
+    document.head.appendChild(style);
+}
