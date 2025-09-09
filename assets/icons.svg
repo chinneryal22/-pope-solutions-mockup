@@ -112,4 +112,115 @@
     <line x1="2" y1="12" x2="22" y2="12" stroke="currentColor" stroke-width="2"/>
     <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" stroke="currentColor" stroke-width="2" fill="none"/>
   </symbol>
+
+  <!-- CUSTOM PRODUCT CARD ICONS -->
+  
+  <!-- SLEDScan - Advanced Radar/Scanner Icon -->
+  <symbol id="icon-sledscan" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" fill="none"/>
+    <circle cx="12" cy="12" r="6" stroke="currentColor" stroke-width="1.5" fill="none"/>
+    <circle cx="12" cy="12" r="2" fill="currentColor"/>
+    <!-- Radar sweep line -->
+    <path d="M12 2L12 12L18 8" stroke="currentColor" stroke-width="2" fill="none"/>
+    <!-- Government building silhouette -->
+    <rect x="8" y="16" width="8" height="6" fill="currentColor" opacity="0.3"/>
+    <rect x="10" y="14" width="4" height="2" fill="currentColor" opacity="0.3"/>
+    <!-- Scan lines -->
+    <path d="M4 4L8 8M20 4L16 8M4 20L8 16M20 20L16 16" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+  </symbol>
+
+  <!-- ProcurePro - Advanced Compliance Shield -->
+  <symbol id="icon-procurepro" viewBox="0 0 24 24">
+    <path d="M12 2L3 7v5c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+    <!-- Checkmark in center -->
+    <path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2" fill="none"/>
+    <!-- Document lines -->
+    <path d="M7 15h10M7 17h8M7 19h6" stroke="currentColor" stroke-width="1" opacity="0.6"/>
+    <!-- Gavel/law symbol -->
+    <circle cx="16" cy="8" r="2" stroke="currentColor" stroke-width="1" fill="currentColor" opacity="0.3"/>
+  </symbol>
+
+  <!-- AiVA Academy - Modern Learning Platform -->
+  <symbol id="icon-aiva-academy" viewBox="0 0 24 24">
+    <!-- Graduation cap base -->
+    <path d="M2 7l10-4 10 4-10 4-10-4z" stroke="currentColor" stroke-width="1.5" fill="currentColor" opacity="0.2"/>
+    <!-- Cap top -->
+    <path d="M6 10v4c0 2.21 2.69 4 6 4s6-1.79 6-4v-4" stroke="currentColor" stroke-width="1.5" fill="none"/>
+    <!-- AI brain pattern -->
+    <circle cx="12" cy="9" r="1.5" fill="currentColor"/>
+    <path d="M10 7h4M10 11h4M8 9h8" stroke="currentColor" stroke-width="0.5" opacity="0.6"/>
+    <!-- Tassel -->
+    <path d="M17 7v3l2-1" stroke="currentColor" stroke-width="1.5" fill="none"/>
+    <!-- Knowledge rays -->
+    <path d="M12 3v2M6 6l1.5 1.5M18 6l-1.5 1.5" stroke="currentColor" stroke-width="1" opacity="0.4"/>
+  </symbol>
+
+  <!-- AI Market Foresight - Crystal Ball with Data Streams -->
+  <symbol id="icon-market-foresight" viewBox="0 0 24 24">
+    <!-- Crystal ball -->
+    <circle cx="12" cy="10" r="6" stroke="currentColor" stroke-width="1.5" fill="none"/>
+    <!-- Inner vision/data -->
+    <path d="M9 8c0-2 1.5-3 3-3s3 1 3 3c0 1.5-1 2.5-3 2.5S9 9.5 9 8z" fill="currentColor" opacity="0.3"/>
+    <!-- Base stand -->
+    <ellipse cx="12" cy="17" rx="4" ry="1.5" stroke="currentColor" stroke-width="1.5" fill="none"/>
+    <path d="M8 17v1c0 .5.5 1 1 1h6c.5 0 1-.5 1-1v-1" stroke="currentColor" stroke-width="1.5" fill="none"/>
+    <!-- Data streams/predictions -->
+    <path d="M4 12c2-1 3-2 4-1M20 12c-2-1-3-2-4-1M6 6c1 1 2 0 3 1M18 6c-1 1-2 0-3 1" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+    <!-- Trend lines -->
+    <path d="M2 20h20M3 19l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1" stroke="currentColor" stroke-width="0.5" opacity="0.4"/>
+  </symbol>
+
+  <!-- Culture Pulse - Team Network/Heartbeat -->
+  <symbol id="icon-culture-pulse" viewBox="0 0 24 24">
+    <!-- People network -->
+    <circle cx="8" cy="8" r="2" stroke="currentColor" stroke-width="1.5" fill="currentColor" opacity="0.3"/>
+    <circle cx="16" cy="8" r="2" stroke="currentColor" stroke-width="1.5" fill="currentColor" opacity="0.3"/>
+    <circle cx="12" cy="16" r="2" stroke="currentColor" stroke-width="1.5" fill="currentColor" opacity="0.3"/>
+    <!-- Connection lines -->
+    <path d="M8 8l4 8M16 8l-4 8M8 8h8" stroke="currentColor" stroke-width="1" opacity="0.6"/>
+    <!-- Pulse/heartbeat line -->
+    <path d="M2 12h3l2-4 2 8 2-8 2 4h3l2-2" stroke="currentColor" stroke-width="2" fill="none"/>
+    <!-- Sentiment indicators -->
+    <circle cx="6" cy="4" r="1" fill="currentColor" opacity="0.4"/>
+    <circle cx="18" cy="4" r="1" fill="currentColor" opacity="0.4"/>
+    <circle cx="12" cy="20" r="1" fill="currentColor" opacity="0.4"/>
+  </symbol>
+
+  <!-- AI Opportunity Matchmaker - Connection Hub -->
+  <symbol id="icon-matchmaker" viewBox="0 0 24 24">
+    <!-- Central hub -->
+    <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.5" fill="currentColor" opacity="0.2"/>
+    <!-- Connecting nodes -->
+    <circle cx="5" cy="5" r="2" stroke="currentColor" stroke-width="1.5" fill="none"/>
+    <circle cx="19" cy="5" r="2" stroke="currentColor" stroke-width="1.5" fill="none"/>
+    <circle cx="5" cy="19" r="2" stroke="currentColor" stroke-width="1.5" fill="none"/>
+    <circle cx="19" cy="19" r="2" stroke="currentColor" stroke-width="1.5" fill="none"/>
+    <!-- Connection lines with arrows -->
+    <path d="M7 7l3 3M17 7l-3 3M7 17l3-3M17 17l-3-3" stroke="currentColor" stroke-width="1.5" fill="none"/>
+    <!-- Handshake symbol in center -->
+    <path d="M10 11h4" stroke="currentColor" stroke-width="1.5" fill="none"/>
+    <path d="M9 12h6" stroke="currentColor" stroke-width="1" opacity="0.6"/>
+    <!-- Partnership indicators -->
+    <path d="M5 3v4M19 3v4M5 17v4M19 17v4" stroke="currentColor" stroke-width="0.5" opacity="0.4"/>
+  </symbol>
+
+  <!-- Grant Navigator - Funding Flow/Treasure Map -->
+  <symbol id="icon-grant-navigator" viewBox="0 0 24 24">
+    <!-- Treasure map base -->
+    <rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.5" fill="none"/>
+    <!-- Map content -->
+    <path d="M6 8h12M6 12h8M6 16h10" stroke="currentColor" stroke-width="0.5" opacity="0.3"/>
+    <!-- Treasure/funding location -->
+    <circle cx="15" cy="10" r="2" stroke="currentColor" stroke-width="1.5" fill="currentColor" opacity="0.4"/>
+    <text x="15" y="11" text-anchor="middle" font-size="8" font-weight="bold">$</text>
+    <!-- Navigation path -->
+    <path d="M8 14c2-1 4-2 7-4" stroke="currentColor" stroke-width="2" fill="none" stroke-dasharray="2,2" opacity="0.6"/>
+    <!-- Compass rose -->
+    <path d="M18 6l1-1 1 1-1 1-1-1M17 5h4M19 3v4" stroke="currentColor" stroke-width="0.5" opacity="0.5"/>
+    <!-- Funding streams -->
+    <path d="M5 2v2M12 2v2M19 2v2" stroke="currentColor" stroke-width="1" opacity="0.4"/>
+    <circle cx="5" cy="1" r="0.5" fill="currentColor" opacity="0.6"/>
+    <circle cx="12" cy="1" r="0.5" fill="currentColor" opacity="0.6"/>
+    <circle cx="19" cy="1" r="0.5" fill="currentColor" opacity="0.6"/>
+  </symbol>
 </svg>
