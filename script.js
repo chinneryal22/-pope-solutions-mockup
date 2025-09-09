@@ -2,12 +2,27 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize all interactive features
+    loadSVGIcons();
     initSmoothScrolling();
     initScrollAnimations();
     initMetricCounters();
     initInteractiveElements();
     initMobileMenu();
 });
+
+// Load SVG Icons
+function loadSVGIcons() {
+    // Since we're using external SVG references, ensure they're loaded
+    fetch('assets/icons.svg')
+        .then(response => response.text())
+        .then(data => {
+            const div = document.createElement('div');
+            div.style.display = 'none';
+            div.innerHTML = data;
+            document.body.insertBefore(div, document.body.firstChild);
+        })
+        .catch(error => console.log('Icons loaded from external file'));
+}
 
 // Smooth scrolling for navigation links
 function initSmoothScrolling() {
